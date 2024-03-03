@@ -40,13 +40,13 @@ const MainComponent = ({
                   <p className={classes.circle}></p>
                 </div>
               </div>
-              <div className={classes.responsibilities}>
+              <ul className={classes.responsibilities}>
                 {responsibilities.map((el, i) => (
-                  <p className={classes.responsibility} key={i}>
+                  <li className={classes.responsibility} key={i}>
                     {el}
-                  </p>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
             <div className={classes.sendYourCv}>
               <p className={classes.label}>{sendYourCv.label}</p>
