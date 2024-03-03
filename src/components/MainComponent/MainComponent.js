@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./MainComponent.module.css";
 const MainComponent = ({
+  topImg,
   img,
   logo,
   heading,
@@ -18,7 +19,8 @@ const MainComponent = ({
     >
       <div className={classes.container}>
         <div className={classes.topHeader}>
-          <img src={logo} alt="#" className={classes.logo} />
+          <img src={logo} alt="#" className={classes.logo} />{" "}
+          <img src={topImg} alt="#" className={classes.topImg} />
         </div>
         <div className={classes.wrapper}>
           <div className={classes.infoContainer}>

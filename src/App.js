@@ -1,12 +1,13 @@
 import { useState } from "react";
 
 import MainComponent from "./components/MainComponent/MainComponent";
-import { img, logo } from "./images";
+import { img, logo, topImg } from "./images";
 
 function App() {
   const [allData, setAllData] = useState({
     fontFamily: "'Public Sans', sans-serif",
     logo: logo,
+    topImg: topImg,
     img: img,
 
     primaryColor: "#FFEFCB",
